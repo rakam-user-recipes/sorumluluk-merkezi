@@ -1,0 +1,1 @@
+# sorumluluk-merkezi
