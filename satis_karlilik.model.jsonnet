@@ -4,7 +4,7 @@
   mappings : {
     eventTimestamp : "tarih"
   },
-  dimensions : {
+  dimensions : { 
     tarih : {
       timeframes : [ "hour", "day", "week", "month", "year", "hourOfDay", "dayOfMonth", "weekOfYear", "monthOfYear", "quarterOfYear", "dayOfWeek" ],
       type : "timestamp",
@@ -18,6 +18,10 @@
       type : "double",
       column : "SATIŞ MİKTARI"
     },
+    musteritipi : {
+      type : "string",
+      column : "MÜŞTERİ TİPİ"
+    },
     tutar : {
       label : "Net tutar",
       type : "double",
@@ -26,6 +30,10 @@
     ana_bayi_adi : {
       type : "string",
       column : "ANA BAYİ ADI"
+    },
+     ana_bayi_adi : {
+      type : "string",
+      column : "Sorumluluk Merkezi"
     },
     hareket_satici : {
       type : "string",
