@@ -64,7 +64,7 @@ toplam_satis: {
 paket_tutari: {
     label: "Ortalama Paket Tutari",
    type: 'double',
-   sql : "(sum(toplam_satis) / (COUNT (DISTINCT {{dimension.fatura_no}})) )"
+   sql : "(sum({{dimension.toplam_satis}}) / (COUNT (DISTINCT {{dimension.fatura_no}})) )"
  }
 },
 
