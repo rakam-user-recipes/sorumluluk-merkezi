@@ -36,6 +36,11 @@
       type : "string",
       column : "sth_stok_kod"
     },
+     sth_cari_kodu : {
+      label : "Cari Kodu",
+      type : "string",
+      column : "sth_cari_kodu"
+    },
      sth_belge_no : {
       label : "Fatura No",
       type : "double",
