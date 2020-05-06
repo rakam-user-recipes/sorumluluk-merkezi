@@ -56,6 +56,14 @@
     sql: 'concat(sth_evrakno_seri, sth_evrakno_sira)',
    type: 'string'
  },
+  musteritipi : {
+      type : "string",
+      column : "MÜŞTERİ TİPİ"
+    },
+    ana_bayi_adi : {
+      type : "string",
+      column : "Sorumluluk Merkezi"
+    },
 toplam_satis: {
     label: "Toplam Satis",
    type: 'double',
