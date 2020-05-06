@@ -51,8 +51,6 @@
       type : "double",
       column : "sth_evrakno_sira"
     },
-    
-  
   fatura_no: {
     label: "Fatura No",
     sql: 'concat(sth_evrakno_seri, sth_evrakno_sira)',
@@ -63,16 +61,13 @@ toplam_satis: {
    type: 'double',
    sql : "(sth_tutar - sth_iskonto1)"
  },
-
 paket_tutari: {
     label: "Ortalama Paket Tutari",
    type: 'double',
    sql : "(COUNT ( DISTINCT fatura_no ) / sum(toplam_satis))"
  }
-
-
 },
-  
+
   measures : {
     toplam_tutar : {
       reportOptions : {
