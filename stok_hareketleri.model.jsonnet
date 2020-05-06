@@ -98,7 +98,7 @@
       },
     label: "Ortalama Paket Tutari",
    type: 'double',
-   sql : "(sum({{dimensions.toplam_satis}}) / (COUNT (DISTINCT {{dimension.fatura_no}})) )"
+   sql : "(sum({{dimension.toplam_satis}}) / (COUNT (DISTINCT {{dimension.fatura_no}})) )"
  }
   }
 }
