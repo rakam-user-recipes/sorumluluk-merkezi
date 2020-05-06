@@ -38,7 +38,7 @@
     },
      sth_belge_no : {
       label : "Fatura No",
-      type : "string",
+      type : "double",
       column : "sth_belge_no"
     }
   },
