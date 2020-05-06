@@ -1,5 +1,5 @@
 {
-  name : "stok_hareketleri",
+  name : "stok_hareketleri2",
   target : {
     database : "MikroDB_V16_KEMERBURGAZ",
     schema : "dbo",
