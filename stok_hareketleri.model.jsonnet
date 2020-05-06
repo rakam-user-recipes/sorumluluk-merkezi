@@ -91,7 +91,7 @@
       },
     label: "Toplam Satis",
    type: 'double',
-   sql : "(sth_tutar - sth_iskonto1)"
+   sql : "({{dimensions.sth_tutar}} - {{dimensions.sth_iskonto1}})"
  },
     paket_tutari: {
       reportOptions : {
