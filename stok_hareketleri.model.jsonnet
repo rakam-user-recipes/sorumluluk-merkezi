@@ -63,7 +63,13 @@
     ana_bayi_adi : {
       type : "string",
       column : "Sorumluluk Merkezi"
-    }
+    },
+
+    toplam_satis: {
+    label: "Toplam Satis",
+   type: 'double',
+   sql : "(sth_tutar - sth_iskonto1)"
+ }
 
 
 },
@@ -85,21 +91,14 @@
       aggregation : "sum",
       type : "double"
     },
-    toplam_satis: {
-       reportOptions : {
-        formatNumbers : true
-      },
-    label: "Toplam Satis",
-   type: 'double',
-   sql : "({{dimensions.sth_tutar}} - {{dimensions.sth_iskonto1}})"
- },
+    
     paket_tutari: {
       reportOptions : {
         formatNumbers : true
       },
     label: "Ortalama Paket Tutari",
    type: 'double',
-   sql : "(sum({{measures.toplam_satis}}) / (COUNT (DISTINCT {{dimension.fatura_no}})) )"
+   sql : "(sum({{dimensions.toplam_satis}}) / (COUNT (DISTINCT {{dimension.fatura_no}})) )"
  }
   }
 }
