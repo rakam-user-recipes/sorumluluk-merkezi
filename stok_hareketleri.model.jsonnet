@@ -58,7 +58,7 @@
     sql: 'concat(sth_evrakno_seri, sth_evrakno_sira)',
    type: 'string'
  },
-Toplam_Satis: {
+toplam_Satis: {
     label: "Toplam Satis",
    type: 'string',
    column : "(sth_tutar - sth_iskonto1)"
