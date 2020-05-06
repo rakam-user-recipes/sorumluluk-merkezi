@@ -14,13 +14,13 @@
       type : "string",
       column : "msg_S_0159"
     },
+    smerkezi : {
+      type : "string",
+      column : "SRM MERKEZİ"
+    },
     miktar : {
       type : "double",
       column : "SATIŞ MİKTARI"
-    },
-    musteritipi : {
-      type : "string",
-      column : "MÜŞTERİ TİPİ"
     },
     tutar : {
       label : "Net tutar",
@@ -30,10 +30,6 @@
     ana_bayi_adi : {
       type : "string",
       column : "ANA BAYİ ADI"
-    },
-     ana_bayi_adi : {
-      type : "string",
-      column : "Sorumluluk Merkezi"
     },
     hareket_satici : {
       type : "string",
