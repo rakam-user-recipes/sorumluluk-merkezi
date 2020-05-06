@@ -11,7 +11,7 @@
   },
   dimensions : {
     sth_cari_srm_merkezi : {
-      label : "Lokasyon",
+      label : "Sorumluluk Merkezi",
       type : "string",
       column : "sth_cari_srm_merkezi"
     },

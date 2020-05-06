@@ -4,7 +4,7 @@
   mappings : {
     eventTimestamp : "tarih"
   },
-  dimensions : { 
+  dimensions : {
     tarih : {
       timeframes : [ "hour", "day", "week", "month", "year", "hourOfDay", "dayOfMonth", "weekOfYear", "monthOfYear", "quarterOfYear", "dayOfWeek" ],
       type : "timestamp",
