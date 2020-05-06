@@ -91,7 +91,14 @@
       aggregation : "sum",
       type : "double"
     },
-    
+     dip_toplam_satis: {
+       reportOptions : {
+        formatNumbers : true
+      },
+    label: "Dip Toplam Satis",
+   type: 'double',
+   sql : "(sum(sth_tutar) - sum(sth_iskonto1))"
+ },
     paket_tutari: {
       reportOptions : {
         formatNumbers : true
