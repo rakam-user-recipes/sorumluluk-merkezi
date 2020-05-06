@@ -61,7 +61,7 @@
 toplam_satis: {
     label: "Toplam Satis",
    type: 'double',
-   column : "(sth_tutar - sth_iskonto1)"
+   sql : "(sth_tutar - sth_iskonto1)"
  }
 
 
