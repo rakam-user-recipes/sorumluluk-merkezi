@@ -35,6 +35,11 @@
       label : "Stok Kodu",
       type : "string",
       column : "sth_stok_kod"
+    },
+     sth_belge_no : {
+      label : "Fatura No",
+      type : "string",
+      column : "sth_belge_no"
     }
   },
   measures : {
