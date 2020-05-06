@@ -51,12 +51,15 @@
       type : "double",
       column : "sth_evrakno_sira"
     },
-     sth_belge_no : {
-      label : "Fatura No",
-      type : "double",
-      column : "sth_belge_no"
-    }
-  },
+    
+  
+  fatura_no: {
+    label: "Fatura No",
+    sql: 'concat(sth_evrakno_seri, sth_evrakno_sira)',
+   type: 'string'
+ }
+},
+  
   measures : {
     toplam_tutar : {
       reportOptions : {
