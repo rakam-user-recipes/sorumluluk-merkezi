@@ -41,6 +41,16 @@
       type : "string",
       column : "sth_cari_kodu"
     },
+       sth_evrakno_seri : {
+      label : "Evrak No Seri",
+      type : "string",
+      column : "sth_evrakno_seri"
+    },
+    sth_evrakno_sira : {
+      label : "Evrak No Sıra",
+      type : "double",
+      column : "sth_evrakno_sira"
+    },
      sth_belge_no : {
       label : "Fatura No",
       type : "double",
