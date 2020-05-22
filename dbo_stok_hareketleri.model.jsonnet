@@ -98,6 +98,14 @@
    type: 'double',
    sql : "(sum(sth_tutar) - sum(sth_iskonto1))"
  },
+   paket_adedi: {
+      reportOptions : {
+        formatNumbers : true
+      },
+    label: "Ortalama Paket Adedi",
+   type: 'double',
+   sql : "(COUNT (DISTINCT {{dimension.fatura_no}})) "
+ },
     paket_tutari: {
       reportOptions : {
         formatNumbers : true
