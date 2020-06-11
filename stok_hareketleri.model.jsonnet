@@ -58,7 +58,7 @@
  },
   musteritipi : {
       type : "string",
-      column : "MÜŞTERİ TİPİ"
+      column : "sth_cari_srm_merkezi"
     },
     ana_bayi_adi : {
       type : "string",
