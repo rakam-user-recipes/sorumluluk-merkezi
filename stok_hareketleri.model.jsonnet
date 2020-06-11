@@ -65,6 +65,12 @@
       column : "Sorumluluk Merkezi"
     },
 
+ miktar : {
+      type : "double",
+      column : "sth_miktar"
+    },
+
+
     toplam_satis: {
     label: "Toplam Satis",
    type: 'double',
