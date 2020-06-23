@@ -14,6 +14,10 @@
       type : "string",
       column : "msg_S_0159"
     },
+     marka : {
+      type : "string",
+      column : "msg_S_0052"
+    },
     smerkezi : {
       type : "string",
       column : "SRM MERKEZİ"
