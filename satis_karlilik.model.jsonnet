@@ -16,7 +16,7 @@
     },
      marka : {
       type : "string",
-      column : "msg_S_0052"
+      column : "msg_S_0012"
     },
     smerkezi : {
       type : "string",
