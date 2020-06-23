@@ -71,12 +71,13 @@
         suffix : " ADET",
         formatNumbers : true
       },
-      sql : "sum(\"EMAAR MAĞAZA\")",
+      sql : "sum(\" EMAAR MAĞAZA\")",
       type : "double"
     },
     umraniye_depo : {
       label : "Umraniye Depo Stogu",
       reportOptions : {
+        suffix : " ADET",
         formatNumbers : true
       },
       sql : "sum(\" ÜMRANİYE DEPO\")",
