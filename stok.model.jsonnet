@@ -17,7 +17,7 @@
       type : "string",
       column : "Uretici Kodu"
     },
-     Kategori_ismi : {
+     kategori_ismi : {
       type : "string",
       column : "Kategori İsmi"
     },
