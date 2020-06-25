@@ -82,6 +82,15 @@
       sql : "sum(\" EMAAR MAĞAZA\")",
       type : "double"
     },
+     bekleyen_tutarsal : {
+      label : "Tutarsal Bekleyen",
+      reportOptions : {
+        suffix : " TL",
+        formatNumbers : true
+      },
+      sql : "yurtici_bekleyen_sip_miktar*dimensions.satis_fiyati",
+      type : "double"
+    },
     umraniye_depo : {
       label : "Umraniye Depo Stogu",
       reportOptions : {
