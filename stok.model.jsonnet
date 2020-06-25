@@ -88,7 +88,7 @@
         suffix : " TL",
         formatNumbers : true
       },
-      sql : "yurtici_bekleyen_sip_miktar*dimensions.satis_fiyati",
+      sql : "Yurtici_Bekleyen Sip. Miktar*dimensions.satis_fiyati",
       type : "double"
     },
     umraniye_depo : {
