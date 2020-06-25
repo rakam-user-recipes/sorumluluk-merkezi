@@ -17,6 +17,14 @@
       type : "string",
       column : "Uretici Kodu"
     },
+     Kategori_ismi : {
+      type : "string",
+      column : "Kategori İsmi"
+    },
+        satis_fiyati : {
+      type : "double",
+      column : "msg_S_0006"
+    },
     stok_kodu : {
       type : "string",
       column : "msg_S_0078"
