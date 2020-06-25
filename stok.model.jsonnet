@@ -25,6 +25,10 @@
       type : "double",
       column : "msg_S_0006"
     },
+    bekleyen_siparis_miktar: {
+      type: 'double',
+      column: "Yurtici_Bekleyen Sip. Miktar"
+    },
     stok_kodu : {
       type : "string",
       column : "msg_S_0078"
@@ -88,8 +92,8 @@
         suffix : " TL",
         formatNumbers : true
       },
-      sql : "(({{measure.yurtici_bekleyen_sip_miktar}}) * {{dimension.satis_fiyati}})",
-      type : "double"
+      aggregation: 'sum',
+      sql : "{{dimension.bekleyen_siparis_miktar}}) * {{dimension.satis_fiyati}}",
     },
     umraniye_depo : {
       label : "Umraniye Depo Stogu",
