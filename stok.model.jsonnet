@@ -93,7 +93,7 @@
         formatNumbers : true
       },
       aggregation: 'sum',
-      sql : "{{dimension.bekleyen_siparis_miktar}}) * {{dimension.satis_fiyati}}",
+      sql : "{{dimension.bekleyen_siparis_miktar}} * {{dimension.satis_fiyati}}",
     },
     umraniye_depo : {
       label : "Umraniye Depo Stogu",
