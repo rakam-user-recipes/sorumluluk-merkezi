@@ -59,10 +59,6 @@
       type : "string",
       column : "MÜŞTERİ TİPİ"
     },
-    ana_bayi_adi : {
-      type : "string",
-      column : "Sorumluluk Merkezi"
-    },
     iadesiz_satis_tutari : {
       type : "double",
       column : "Satis_Tutari_Iadesiz"
