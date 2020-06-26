@@ -33,7 +33,7 @@
     },
     ana_bayi_adi : {
       type : "string",
-      column : "ANA BAYİ ADI"
+      column : "Ana Bayi Adi"
     },
     hareket_satici : {
       type : "string",
