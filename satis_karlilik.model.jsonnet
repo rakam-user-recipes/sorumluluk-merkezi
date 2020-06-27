@@ -31,6 +31,15 @@
       type : "double",
       column : "NET SATIŞ TUTARI"
     },
+    ulke_adi : {
+      type : "string",
+      sql : |||
+       CASE 
+          WHEN {{TABLE}}."ANA BAYİ ADI" = 'AMAMIT - IBRAHEM ABD ELKHALEQ' THEN 'Mısır'
+          ELSE {{TABLE}}."ANA BAYİ ADI"
+       END
+      |||
+    },
     ana_bayi_adi : {
       type : "string",
       column : "ANA BAYİ ADI"
